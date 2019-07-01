@@ -78,16 +78,15 @@ def predict():
 	#print(y1.size)
 	
 	#compute a bit-wise inversion so black becomes white and vice versa
-	
+	x = np.invert(x)
+
 	#make it the right size
 	x = imresize(x,(28,28))
 	#imshow(x)
 	#print(type(x))
 	
-
 	#x = np.array(y1)
-	print(x.shape)
-	x = np.invert(x)
+	#print(x.shape)
 	
 	#convert to a 4D tensor to feed into our model
 	x = x.reshape(1,28,28,1)
