@@ -10,6 +10,7 @@ greenlet==0.4.15
 grpcio==1.21.1
 gunicorn==19.9.0
 h5py==2.9.0
+imageio==2.5.0
 itsdangerous==1.1.0
 Jinja2==2.10.1
 Keras==2.2.4
@@ -19,10 +20,11 @@ Markdown==3.1.1
 MarkupSafe==1.1.1
 numpy==1.16.4
 Pillow==6.0.0
+pkg-resources==0.0.0
 protobuf==3.8.0
 pycparser==2.19
 PyYAML==5.1.1
-scipy==1.2pi.0
+scipy==1.2.0
 six==1.12.0
 tensorboard==1.14.0
 tensorflow==1.14.0

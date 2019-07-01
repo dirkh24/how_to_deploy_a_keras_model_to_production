@@ -1,5 +1,8 @@
 # How to Deploy a Keras Model to Production
 
+Based on the Video https://www.youtube.com/watch?v=f6Bf3gl4hWY&t=1207s from Siraj Raval. 
+I made some minor changes to run the code under python 3.6.8. 
+pip
 
 ## Overview
 
